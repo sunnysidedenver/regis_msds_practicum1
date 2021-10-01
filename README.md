@@ -1,5 +1,4 @@
-# regis_msds_practicum1
-Analyzing and Predicting Crime in the City of Denver
+# Analyzing and Predicting Crime in the City of Denver
 
 This project analyzes crime in the City of Denver from 2016-2021 using Jupyter Notebook (Python) exclusively and associated libraries.
 
