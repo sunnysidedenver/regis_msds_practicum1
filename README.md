@@ -33,3 +33,9 @@ Crime is not normally distributed across Denver and predictor variables do not s
 Nonetheless, I am left with a final equation of: total crime = 91 * number of liquor stores + 0.33 * total population + 255 * number of marijuana dispensaries + 278.63
 
 The time series forecast does a better job of at least predicting short term trends in crime. The analysis looks at crime for the entire period of record, but broken down into 67 months. This supplied the model with sufficient data points to return a reasonable prediction. The data were checked to see if they were stationary using a Dickey Fuller Test. They were not. The data were manually analyzed in order to optimize the order of differencing [and make more stationary] as well as the MA and RA terms.  I then used an autotuning function from the pmdarima library to further improve my model. My final model has a fairly large RMSE but when plotted again actual crime, it doesn't a baisc job at indicating trends into the near term.
+
+At this time I would not suggest crime can be easily modeled using a multivariate linear regression with the attributes chosen for this analysis. However, the relationships between crime and these variables might give subjective insight into whether an increase in crime is likely, and may be of use to decision makers. For example, there is 70% correlation between crime and the number of liquor stores/bars in a neighborhood. Aslo, as income increase in a neighborhood, crime generally decreases. Crime really jumps with more rental units, too.
+
+I could recommend, with further refinement, that a time series analysis could be used to determine short term increases/decreases in crime but the error bar is still fairly high.
+
+
