@@ -6,7 +6,7 @@ The intent of the project is to visualize and understand trends in crime over th
 
 # THE DATA
 
-The analysis pulls crime data from the City of Denver and includes over a half-million crimes. These crime data conveniently break crime down by neighborhood. Crime has also been categorized such that you can distinguish between different types of crime (e.g., murders, larceny, theft, etc.). Code was written to tally up crime year over year for each neighborhood such that trends could be visualized in tables and plots. The data file is named crime.csv.
+The analysis pulls crime data from the City of Denver, whicch includes over a half-million crimes. These crime data conveniently break crime down by neighborhood. Crime has also been categorized by type (e.g., murders, larceny, theft, etc.). Code was written to tally up crime year over year for each neighborhood such that trends could be visualized in tables and plots. The data file is named crime.csv.
 
 Additional data has been acquired from the US Census Bureau's American Community Survery (ACS) 5-year. It has been pre-processed in ArcGIS Pro to bin crimes by Denver neighborhood.The attribute table was then exported to a table which was then transformed into an excel file using a geospatial tool called Table to Excel. Given the ease of working with .csv files in Pandas, I converted the .xls files to .csv. These variables were then closely analyzed to see if there was an obvious correlation to crime. If so, they were included in the analysis. Attributes include... The data file is named acs.csv.
 
