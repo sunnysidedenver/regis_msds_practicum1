@@ -1,12 +1,12 @@
 # Analyzing and Predicting Crime in the City of Denver
 
-This project analyzes crime in the City of Denver from 2016-2021 using Jupyter Notebook (Python) exclusively and associated libraries.
+This project analyzes crime in the City and County of Denver from 2016-2021 using Jupyter Notebook (Python) exclusively and associated libraries.
 
 The intent of the project is to visualize and understand trends in crime over this period of time. Is crime increase/decreasing over time, and in what neightborhoods? The project also seeks to understand if crime can be predicted using both multivariate regressions and time series forecasts.
 
 # THE DATA
 
-The analysis pulls crime data from the City of Denver, whicch includes over a half-million crimes. These crime data conveniently break crime down by neighborhood. Crime has also been categorized by type (e.g., murders, larceny, theft, etc.). Code was written to tally up crime year over year for each neighborhood such that trends could be visualized in tables and plots. The data file is named crime.csv and has been zipped down to a file size just under 25 MB.
+The analysis pulls crime data from the City and County of Denver from 2016-2021, which includes over a half-million crimes. These crime data conveniently break crime down by neighborhood. Crime has also been categorized by type (e.g., murders, larceny, theft, etc.). Code was written to tally up crime year over year for each neighborhood such that trends could be visualized in tables and plots. The data file is named crime.csv and has been zipped down to a file size just under 25 MB.
 
 Additional data has been acquired from the US Census Bureau's American Community Survery (ACS) 5-year. It has been pre-processed in ArcGIS Pro to bin crimes by Denver neighborhood.The attribute table was then exported to a table which was then transformed into an excel file using a geospatial tool called Table to Excel. Given the ease of working with .csv files in Pandas, I converted the .xls files to .csv. These variables were then closely analyzed to see if there was an obvious correlation to crime. If so, they were included in the analysis. 
 
