@@ -18,7 +18,7 @@ These five datasets were then merged based on a common neighborhood name attribu
 
 # VISUALIZING THE DATA
 
-The data have been organized such that trends in crime can be visualized at the neighborhood level year over year. You can see which neighborhoods have the most and least amount of crime. Additionally tables have been written that the show the different crime types for select neighborhoods and their corresponding counts. The plots were created with the matplotlib.pyplot and seaborn libraries. The tables were created using the pandas library. 
+The data have been organized such that trends in crime can be visualized at the neighborhood level year over year. You can see which neighborhoods have the most and least amount of crime. Additionally tables were created that show the different crime types for select neighborhoods and their corresponding counts. The plots were created with the matplotlib.pyplot and seaborn libraries. The tables were created using the pandas library. 
 
 # MODELING THE DATA
 
@@ -26,3 +26,4 @@ Two approaches were explored in order to predict crime. The first involves a usi
 
 # CONCLUSIONS
 
+Crime is not normally distributed across Denver and predictor variables do not seem to have a strong enough relationship to crime. Fitting a non-normal distribution with weak predictors has its challenges. Deleting the outliers to normalize the distribution is not in the best interest of the analysis. So while there is fairly strong relationship between crimes and the number of liquor stores in a neighborhood, for example, liquor stores alone do not describe (or fit) the whole distribution of crime across Denver. The regression was fitted over 10 times in order to improve model perfomance (as measured by an AIC score), but still returned a fit with a very low r-squared. Also, the model has issues with multicolinearity and heteroskedasticity. Attempts were made to minimize both. A recurisive feature elimination was used in the end in order to automate selection of the best attributes, but the r-squared was only 25%. Because the model never reached a high enough accuracy the data were never split into test and train.
