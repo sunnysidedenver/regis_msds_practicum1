@@ -1,0 +1,80 @@
+﻿OBJECTID,TARGET_FID,Zip_Code,Address,City,State,NBHD_NAME
+1,33,6618-69880,1285 S Santa Fe Drive,Denver,CO,Overland
+2,6,10861-103209,3000 1st Ave.,Denver,CO,Cherry Creek
+3,50,76470-97550,7930 E 49th Ave,Denver,CO,Central Park
+4,52,10862-103208,200 Quebec St.,Denver,CO,Lowry Field
+5,21,29429-253366,2790 W. Alameda Ave.,Denver,CO,Athmar Park
+6,41,79292-99564,2750 S Colorado Blvd,Denver,CO,University Hills
+7,77,75959-108270,HMSHost 8500 Pena Blvd.,Denver,CO,DIA
+8,48,15466-156825,1420 Stout St,Denver,CO,CBD
+9,37,6225-283,5074 E. Hampden Avenue,Denver,CO,Southmoor Park
+10,17,74296-77462,"3800 W 44th Ave, REI",Denver,CO,Berkeley
+11,48,10673-100271,"700 16th St., Suite A",Denver,CO,CBD
+12,60,74282-65040,757 E 20th Ave,Denver,CO,Five Points
+13,69,10351-99161,381 S Broadway,Denver,CO,Baker
+14,23,10261-100356,1605 E Evans Ave,Denver,CO,University
+15,47,74705-96758,"6220 E 14th St, Denver Marriott City Center",Denver,CO,Civic Center
+16,48,75506-33861,"1701 California Street, The Shops at 6th and Broadway",Denver,CO,CBD
+17,5,6324-9153,"575 Lincoln St, Suite A",Denver,CO,Speer
+18,,12848-95170,4600 Leetsdale Dr,Denver,CO,
+19,48,78024-107376,1405 Curtis St,Denver,CO,CBD
+20,50,2817-86203,7304 E. 29th Ave,Denver,CO,Central Park
+21,56,5425-1281,1600 E 18th Ave,Denver,CO,City Park West
+22,38,9193-151286,6470 E Hampden Ave,Denver,CO,Hampden South
+23,6,237-230005,"250 Columbine, 160",Denver,CO,Cherry Creek
+24,20,6342-10647,"1416 Platte River, Suite A",Denver,CO,Highland
+25,61,10496-100761,"3470 Park Ave West, Writer's Square",Denver,CO,Globeville
+26,49,6657-73731,1512 Larimer Street,Denver,CO,Union Station
+27,36,11474-105326,6395 E. Hampden Ave.,Denver,CO,Hampden
+28,1,74254-65021,1653 S Colorado Blvd,Denver,CO,Cory - Merrill
+29,3,8971-94801,1209 East Alameda Ave,Denver,CO,Washington Park
+30,50,16946-106016,2810 Quebec St.,Denver,CO,Central Park
+31,6,253-136,"200 Fillmore Street, Cherry Creek",Denver,CO,Cherry Creek
+32,,28591-249796,"3000 E. 1ST STREET, #264",DENVER,CO,
+33,48,6381-25487,"633 17th St, 110",Denver,CO,CBD
+34,49,24712-197869,1950 Chestnut Pl,Denver,CO,Union Station
+35,9,2946-87321,2975 E Colfax Ave,Denver,CO,City Park
+36,23,6214-38,"2000 S. University, #B",Denver,CO,University
+37,8,270-138,801 Colorado Blvd.,Denver,CO,Congress Park
+38,20,10019-98985,"2990 North Speer Blvd, Unit 1, University Hills Mall",Denver,CO,Highland
+39,41,5434-872,2700 S. Colorado Blvd.,Denver,CO,University Hills
+40,76,10770-100758,"2990 W 44th Ave, Plaza Zocalo",Denver,CO,Sunnyside
+41,72,6822-82361,1050 W Colfax Ave,Denver,CO,Lincoln Park
+42,48,24838-238076,1125 17th Street,Denver,CO,CBD
+43,14,48194-254256,Colfax Ave. and Raleigh Street,Denver,CO,West Colfax
+44,51,10625-100287,4505 Peoria Street,Denver,CO,Montbello
+45,51,27847-248910,4005 Chambers Road,Denver,CO,Montbello
+46,77,75960-108269,HMSHost 8500 Pena Blvd,Denver,CO,DIA
+47,67,11473-103805,"4030 Colorado Blvd, 101",Denver,CO,Northeast Park Hill
+48,54,75004-70380,3100 S Sheridan,Denver,CO,Harvey Park South
+49,46,75324-95897,1700 Broadway,Denver,CO,North Capitol Hill
+50,72,73787-111045,1331 N Speer Blvd,Denver,CO,Lincoln Park
+51,49,248-135,1406 Larimer St,Denver,CO,Union Station
+52,4,74125-25289,560 Corona St.,Denver,CO,Washington Park West
+53,27,8115-95975,"6160 E. Colfax Ave, Unit 1",Denver,CO,Montclair
+54,52,73566-81441,"200 Quebec St, #400",Denver,CO,Lowry Field
+55,47,17562-165406,"1410 Speer Blvd, 16 Market Square",Denver,CO,Civic Center
+56,49,5803-15714,1490 16th Street,Denver,CO,Union Station
+57,1,8916-95345,"1233 S. Colorado Blvd, 16th & Curtis",Denver,CO,Cory - Merrill
+58,48,5392-873,934 Sixteenth Street,Denver,CO,CBD
+59,48,5640-2442,"303 16th Street, Ste. 100",Denver,CO,CBD
+60,49,22162-218186,"1900 Sixteenth St., 100",Denver,CO,Union Station
+61,6,74178-32999,3110  E  1st Ave,Denver,CO,Cherry Creek
+62,69,73165-21582,"323 S Broadway, Denver Place Mall",Denver,CO,Baker
+63,48,6697-73722,"999 18th Street, 113",Denver,CO,CBD
+64,36,11034-104012,9925 East Hampden Ave,Denver,CO,Hampden
+65,5,5285-803,"300 E. 6th Ave., #5",Denver,CO,Speer
+66,,8863-95109,"10005 Grant St, Unit F",Denver,CO,
+67,50,10436-98953,"7990 E. 49th Avenue, Villa Monaco",Denver,CO,Central Park
+68,40,6540-62379,"2223 S. Monaco Parkway, G110",Denver,CO,Goldsmith
+69,0,27708-240564,900 Auraria Parkway,Denver,CO,Auraria
+70,48,75828-94910,1740 Welton St,Denver,CO,CBD
+71,23,74105-23807,2150 S Downing,Denver,CO,University
+72,66,22871-102491,2660 Federal Blvd,Denver,CO,Jefferson Park
+73,45,11105-100844,"4500 W 38th Ave, Capitol Hill Center",Denver,CO,Capitol Hill
+74,45,75003-33060,1155 E. 9th Ave.,Denver,CO,Capitol Hill
+75,,19695-165566,3500 A River Point Parkway,Denver,CO,
+76,36,74108-17656,6460 East Yale Ave,Denver,CO,Hampden
+77,36,18946-177247,7777 E. Hampden Ave,Denver,CO,Hampden
+78,65,5440-1319,5835 Leetsdale Drive,Denver,CO,Washington Virginia Vale
+79,46,6205-30,1670 Broadway,Denver,CO,North Capitol Hill
