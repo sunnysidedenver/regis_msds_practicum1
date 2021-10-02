@@ -22,7 +22,7 @@ The data have been organized such that trends in crime can be visualized at the 
 
 # MODELING THE DATA
 
-Two approaches were explored in order to predict crime. The first involves a using a multivariate regression. This regression uses the statsmodels.formula.api and imports ols. 
+Two approaches were explored in order to predict crime. The first involves a using a multivariate regression. This regression uses the statsmodels.formula.api to import ols. 
 
 The second uses a time series analysis and forecast, which uses the statsmodels.tsa.arima_model library to import ARIMA.
 
