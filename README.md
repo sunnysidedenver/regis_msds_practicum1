@@ -1,8 +1,10 @@
 # Analyzing and Predicting Crime in the City of Denver
 
-This project analyzes crime in the City and County of Denver from 2016-2021 using Jupyter Notebook (Python) exclusively and associated libraries.
+This project analyzes crime in the City and County of Denver from 2016-2021 using Jupyter Notebook (Python 3) exclusively and associated libraries.
 
 The intent of the project is to visualize and understand trends in crime over this period of time. Is crime increase/decreasing over time, and in what neightborhoods? The project also seeks to understand if crime can be predicted using both multivariate regressions and time series forecasts.
+
+The entire project can be viewed in the Jupyter Notebook (.ipynb)
 
 # THE DATA
 
