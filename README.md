@@ -4,7 +4,7 @@ This project analyzes crime in the City and County of Denver from 2016-2021 usin
 
 The intent of the project is to visualize and understand trends in crime over this period of time. Is crime increase/decreasing over time, and in what neightborhoods? The project also seeks to understand if crime can be predicted using both multivariate regressions and time series forecasts.
 
-The entire project can be viewed in the Jupyter Notebook (.ipynb)
+The entire project can be viewed in the provided Jupyter Notebook (.ipynb) with the exception of the map shapefiles. These shapefiles will need to be viewed in a Geographic Information System, such as ArcGIS or QGIS (open source). Screen captures of these maps are included as a reference. A "shapefile" consists of three files (.shp, .shx, .dbf). All three must be loaded into a geodatabase in order to display the geographic layer properly.
 
 # THE DATA
 
@@ -22,9 +22,7 @@ These five datasets were then merged based on a common neighborhood name attribu
 
 The data have been organized such that trends in crime can be visualized at the neighborhood level year over year. You can see which neighborhoods have the most and least amount of crime. Additionally tables were created that show the different crime types for select neighborhoods and their corresponding counts. The plots were created with the matplotlib.pyplot and seaborn libraries. The tables were created using the pandas library. 
 
-In addition, you will find several maps (.png files) created in ArcGIS Pro, which were made from the same crime data. The raw shapefiles have also been made available. Each layer (e.g., muders) consists of three file (.shp, .shx, .dbf) each. All three need to be loaded into your geodatabase for them to display properly in ArcGIS or QGIS (open source).
-
-These maps show murders, auto thefts, drug and alcohol offenses, and robberies at the neighborhood level such that these crimes can be easily compared among the different neightborhoods. A final map shows all crimes over the 5+ year period of record. The crime data were spatially-joined with a neighborhood boundary layer in order to calculate a new attribute that counts the number of crimes for each neighborhood. The total crime map looks at each neighborhood's percentage of total crime rather than a count since the numbers are so large. These percentages were calculated by doing a field calculation on the crime attribute table then symbolizing that attribute as a graduated color divided into five bins, or classes. 
+In addition, you will find several maps (.png files) created in ArcGIS Pro, which were made from the same crime data. The raw shapefiles have also been made available. These maps show murders, auto thefts, drug and alcohol offenses, and robberies at the neighborhood level such that these crimes can be easily compared among the different neightborhoods. A final map shows all crimes over the 5+ year period of record. The crime data were spatially-joined with a neighborhood boundary layer in order to calculate a new attribute that counts the number of crimes for each neighborhood. The total crime map looks at each neighborhood's percentage of total crime rather than a count since the numbers are so large. These percentages were calculated by doing a field calculation on the crime attribute table then symbolizing that attribute as a graduated color divided into five bins, or classes. 
 
 # MODELING THE DATA
 
