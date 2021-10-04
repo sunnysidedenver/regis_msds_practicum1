@@ -2,7 +2,7 @@
 
 This project analyzes crime in the City and County of Denver from 2016-2021 using Jupyter Notebook (Python 3) exclusively and select libraries.
 
-The intent of the project is to visualize and understand trends in crime over this period of time. Is crime increase/decreasing over time, and in what neightborhoods? The project also seeks to understand if crime can be predicted using both multivariate regressions and time series forecasts.
+The intent of the project is to visualize and understand trends in crime over this period of time. Is crime increase/decreasing over time, and in what neighborhoods? The project also seeks to understand if crime can be predicted using both multivariate regressions and time series forecasts.
 
 The entire project can be viewed in the provided Jupyter Notebook (.ipynb) with the exception of the map shapefiles. These shapefiles will need to be viewed in a Geographic Information System, such as ArcGIS or QGIS (open source). Screen captures of these maps are included as a reference. Note: A "shapefile" consists of three files (.shp, .shx, .dbf). All three must be loaded into a geodatabase in order to display the geographic layer properly.
 
