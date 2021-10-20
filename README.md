@@ -1,6 +1,6 @@
 # Analyzing and Predicting Crime in the City of Denver
 
-![alt text](https://github.com/sunnysidedenver/regis_msds_practicum1/blob/image.jpg?raw=true)
+![alt text](https://github.com/sunnysidedenver/regis_msds_practicum1/blob/main/image.jpg?raw=true)
 
 This project analyzes crime in the City and County of Denver from 2016-2021 using Jupyter Notebook (Python 3) exclusively and select libraries.
 
